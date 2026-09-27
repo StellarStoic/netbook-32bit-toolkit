@@ -1,0 +1,18 @@
+# secrets and machine-specific leftovers
+*.env
+.env
+.netbook-sudo
+id_ed25519*
+known_hosts
+
+# logs and snapshots produced by the upgrade scripts
+*.log
+upgrade-*.txt
+status-*.txt
+backups/
+*.tar.gz
+*.deb
+
+# python
+__pycache__/
+*.pyc
